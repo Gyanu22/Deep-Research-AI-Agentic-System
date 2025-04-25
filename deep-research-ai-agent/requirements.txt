@@ -1,0 +1,20 @@
+# Core libraries
+langchain>=0.1.14
+langgraph>=0.0.29
+tavily-python>=0.3.1
+
+# LLM support (choose OpenAI or Gemini)
+openai>=1.16.2
+langchain-google-genai
+
+
+# Optional but useful
+faiss-cpu   # For vector search/memory (optional)
+streamlit   # For building UI (optional)
+python-dotenv  # For environment variable management
+pydantic>=1.10.9
+requests
+httpx
+
+# Only if you're using notebooks for testing
+ipykernel
